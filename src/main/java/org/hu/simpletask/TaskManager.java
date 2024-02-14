@@ -11,7 +11,8 @@ public class TaskManager {
     }
 
     public void addTask(String name) {
-        // Implement this pls
+        Task task = new Task(name);
+        tasks.add(task);
     }
 
     public void completeTask(int index) {
